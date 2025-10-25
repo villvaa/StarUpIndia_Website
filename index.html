@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StartupIndia - Premium spare parts supplier for textile spinning mills across India">
+    <title>StartupIndia - Textile Spinning Mill Spare Parts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-blue-600">
+                        <i class="fas fa-industry mr-2"></i>StartupIndia
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html" class="text-blue-600 px-3 py-2 rounded-md text-sm font-medium border-b-2 border-blue-600">Home</a>
+                        <a href="about.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium hover:border-b-2 hover:border-blue-600 transition">About Us</a>
+                        <a href="products.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium hover:border-b-2 hover:border-blue-600 transition">Products</a>
+                        <a href="contact.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium hover:border-b-2 hover:border-blue-600 transition">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
+                <a href="index.html" class="text-blue-600 block px-3 py-2 rounded-md text-base font-medium border-l-4 border-blue-600">Home</a>
+                <a href="about.html" class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium hover:border-l-4 hover:border-blue-600">About Us</a>
+                <a href="products.html" class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium hover:border-l-4 hover:border-blue-600">Products</a>
+                <a href="contact.html" class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium hover:border-l-4 hover:border-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white pt-24 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
+                    Premium Spare Parts for Textile Spinning Mills
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-blue-100">
+                    Your Trusted Partner in Industrial Excellence
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="products.html" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition transform hover:scale-105 shadow-lg">
+                        View Products
+                    </a>
+                    <a href="contact.html" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition transform hover:scale-105">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Decorative wave -->
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg viewBox="0 0 1440 120" class="w-full">
+                <path fill="#f9fafb" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Company Introduction -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Welcome to StartupIndia
+                </h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Leading supplier of high-quality spare parts for textile spinning mills across India. 
+                    We specialize in providing reliable components that keep your production running smoothly.
+                </p>
+            </div>
+            
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Quality Assured</h3>
+                    <p class="text-gray-600">
+                        All products meet international standards and undergo rigorous quality checks
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shipping-fast text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Fast Delivery</h3>
+                    <p class="text-gray-600">
+                        Quick turnaround times to minimize your production downtime
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-headset text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Expert Support</h3>
+                    <p class="text-gray-600">
+                        Dedicated technical support team to assist with all your requirements
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Preview -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Our Product Categories
+                </h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600">
+                    Comprehensive range of spare parts for all your textile machinery needs
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg hover:shadow-lg transition cursor-pointer">
+                    <i class="fas fa-cog text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900 group-hover:text-blue-600">Ring Frame</h3>
+                    <p class="text-gray-600 mb-4">High-precision parts for ring spinning frames</p>
+                    <a href="products.html" class="text-blue-600 font-medium inline-flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <div class="group bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg hover:shadow-lg transition cursor-pointer">
+                    <i class="fas fa-gears text-green-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900 group-hover:text-green-600">Autoconer</h3>
+                    <p class="text-gray-600 mb-4">Reliable components for automatic winding systems</p>
+                    <a href="products.html" class="text-green-600 font-medium inline-flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <div class="group bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg hover:shadow-lg transition cursor-pointer">
+                    <i class="fas fa-wind text-purple-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900 group-hover:text-purple-600">Blowroom</h3>
+                    <p class="text-gray-600 mb-4">Essential parts for blowroom machinery</p>
+                    <a href="products.html" class="text-purple-600 font-medium inline-flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <div class="group bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg hover:shadow-lg transition cursor-pointer">
+                    <i class="fas fa-layer-group text-orange-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900 group-hover:text-orange-600">Carding</h3>
+                    <p class="text-gray-600 mb-4">Quality components for carding machines</p>
+                    <a href="products.html" class="text-orange-600 font-medium inline-flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <div class="group bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-lg hover:shadow-lg transition cursor-pointer">
+                    <i class="fas fa-gauge-high text-red-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900 group-hover:text-red-600">Speed Frame</h3>
+                    <p class="text-gray-600 mb-4">Precision parts for speed frame equipment</p>
+                    <a href="products.html" class="text-red-600 font-medium inline-flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                
+                <div class="group bg-gradient-to-br from-gray-100 to-gray-200 p-6 rounded-lg hover:shadow-lg transition cursor-pointer flex items-center justify-center">
+                    <a href="products.html" class="text-center">
+                        <i class="fas fa-th text-gray-600 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600">View All Products</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                Ready to Get Started?
+            </h2>
+            <p class="text-xl mb-8 text-blue-100">
+                Contact us today for all your spare parts requirements
+            </p>
+            <a href="contact.html" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition transform hover:scale-105 shadow-lg">
+                Get in Touch <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">
+                        <i class="fas fa-industry mr-2"></i>StartupIndia
+                    </h3>
+                    <p class="text-gray-400">
+                        Your trusted partner for textile spinning mill spare parts across India.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition">Products</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i>+91 XXXXX XXXXX</li>
+                        <li><i class="fas fa-envelope mr-2"></i>info@startupindia.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>India</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 StartupIndia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

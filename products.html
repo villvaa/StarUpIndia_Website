@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - StartupIndia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-cogs text-2xl"></i>
+                    <h1 class="text-2xl font-bold">StartupIndia</h1>
+                </div>
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="hover:text-blue-300 transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-blue-300 transition">About</a></li>
+                    <li><a href="products.html" class="hover:text-blue-300 transition border-b-2 border-blue-400">Products</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-300 transition">Contact</a></li>
+                </ul>
+                <button id="mobile-menu-btn" class="md:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="block py-2 hover:text-blue-300 transition">Home</a></li>
+                    <li><a href="about.html" class="block py-2 hover:text-blue-300 transition">About</a></li>
+                    <li><a href="products.html" class="block py-2 hover:text-blue-300 transition">Products</a></li>
+                    <li><a href="contact.html" class="block py-2 hover:text-blue-300 transition">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Our Products</h2>
+            <p class="text-xl text-blue-100">Premium Spare Parts for Textile Spinning Mills</p>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">Product Categories</h3>
+            
+            <!-- Spinning Components -->
+            <div class="mb-16">
+                <h4 class="text-2xl font-bold text-blue-900 mb-8 flex items-center">
+                    <i class="fas fa-sync-alt mr-3"></i>
+                    Spinning Components
+                </h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-circle-notch text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Spindles</h5>
+                        <p class="text-gray-600 mb-4">High-precision spindles for smooth spinning operations. Available in various sizes and specifications.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>High-speed operation</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Durable construction</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Low maintenance</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-dharmachakra text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Rotors</h5>
+                        <p class="text-gray-600 mb-4">Premium quality rotors designed for optimal performance and yarn quality.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Balanced design</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Extended lifespan</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Compatible with major brands</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-layer-group text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Bearings</h5>
+                        <p class="text-gray-600 mb-4">High-performance bearings ensuring smooth rotation and minimal friction.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Heat resistant</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Long service life</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Multiple size options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Parts -->
+            <div class="mb-16">
+                <h4 class="text-2xl font-bold text-blue-900 mb-8 flex items-center">
+                    <i class="fas fa-cog mr-3"></i>
+                    Mechanical Parts
+                </h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-cogs text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Gears & Shafts</h5>
+                        <p class="text-gray-600 mb-4">Precision-engineered gears and shafts for reliable power transmission.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Precise machining</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>High strength materials</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Custom specifications available</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-link text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Belts & Chains</h5>
+                        <p class="text-gray-600 mb-4">Durable belts and chains for efficient power transmission systems.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Wear resistant</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Various sizes available</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Easy installation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-compress text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Springs & Clips</h5>
+                        <p class="text-gray-600 mb-4">High-quality springs and clips for various spinning mill applications.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Corrosion resistant</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Consistent tension</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Wide variety</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accessories & Tools -->
+            <div class="mb-8">
+                <h4 class="text-2xl font-bold text-blue-900 mb-8 flex items-center">
+                    <i class="fas fa-tools mr-3"></i>
+                    Accessories & Tools
+                </h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-wrench text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Maintenance Tools</h5>
+                        <p class="text-gray-600 mb-4">Specialized tools for spinning mill maintenance and repair operations.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Professional grade</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Ergonomic design</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Complete sets available</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-oil-can text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Lubricants</h5>
+                        <p class="text-gray-600 mb-4">Industrial-grade lubricants for optimal machine performance.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>High temperature resistance</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Extended protection</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Various viscosity grades</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4 text-center">
+                            <i class="fas fa-filter text-blue-900 text-4xl"></i>
+                        </div>
+                        <h5 class="text-xl font-semibold mb-2 text-gray-800">Filters & Gaskets</h5>
+                        <p class="text-gray-600 mb-4">Essential filters and gaskets for clean operation and leak prevention.</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>High filtration efficiency</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Durable materials</li>
+                            <li><i class="fas fa-check text-green-600 mr-2"></i>Easy replacement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">Why Choose Our Products?</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fas fa-certificate text-blue-900 text-4xl mb-4"></i>
+                    <h5 class="font-semibold text-lg mb-2 text-gray-800">Certified Quality</h5>
+                    <p class="text-gray-600">All products meet industry standards</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fas fa-shield-alt text-blue-900 text-4xl mb-4"></i>
+                    <h5 class="font-semibold text-lg mb-2 text-gray-800">Warranty Included</h5>
+                    <p class="text-gray-600">Comprehensive warranty coverage</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fas fa-dollar-sign text-blue-900 text-4xl mb-4"></i>
+                    <h5 class="font-semibold text-lg mb-2 text-gray-800">Competitive Pricing</h5>
+                    <p class="text-gray-600">Best value for your investment</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fas fa-boxes text-blue-900 text-4xl mb-4"></i>
+                    <h5 class="font-semibold text-lg mb-2 text-gray-800">Bulk Orders</h5>
+                    <p class="text-gray-600">Special discounts on large quantities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-4">Need a Quote?</h3>
+            <p class="text-xl mb-8 text-blue-100">Contact us for detailed product information and pricing</p>
+            <a href="contact.html" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition inline-block">
+                Request a Quote
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-6">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-cogs mr-2"></i>
+                        StartupIndia
+                    </h4>
+                    <p class="text-gray-300">Your trusted partner for textile spinning mill spare parts and industrial solutions.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="index.html" class="hover:text-blue-400 transition">Home</a></li>
+                        <li><a href="about.html" class="hover:text-blue-400 transition">About Us</a></li>
+                        <li><a href="products.html" class="hover:text-blue-400 transition">Products</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><i class="fas fa-phone mr-2"></i> +91-XXXXXXXXXX</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@startupindia.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 text-center text-gray-400">
+                <p>&copy; 2024 StartupIndia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

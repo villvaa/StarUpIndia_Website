@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://janakar-cloud.github.io/starupindia/sitemap.xml

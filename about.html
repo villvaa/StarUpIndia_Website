@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - StartupIndia</title>
+    <title>About Us - StarUpIndia</title>
+    <meta name="description" content="Learn about StarUpIndia, a leading supplier of textile spinning mill spare parts. Discover our expertise, values, and commitment to industrial excellence.">
+    <meta name="keywords" content="about StarUpIndia, textile spare parts company, industrial expertise, company values, spinning mill supplies">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
-    <nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+    <nav class="royal-bg text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-4 py-4">
             <div class="flex justify-between items-center">
-                <div class="flex items-center space-x-2">
-                    <i class="fas fa-cogs text-2xl"></i>
-                    <h1 class="text-2xl font-bold">StartupIndia</h1>
+                <div class="nav-logo">
+                    <img src="logo/starupindia-high-resolution-logo-transparent.png" alt="StarUpIndia Logo" class="h-16 w-16 mr-3 logo-img">
+                    <h1 class="text-3xl font-bold elegant-text">StarUpIndia</h1>
                 </div>
                 <ul class="hidden md:flex space-x-8">
-                    <li><a href="index.html" class="hover:text-blue-300 transition">Home</a></li>
-                    <li><a href="about.html" class="hover:text-blue-300 transition border-b-2 border-blue-400">About</a></li>
-                    <li><a href="products.html" class="hover:text-blue-300 transition">Products</a></li>
-                    <li><a href="contact.html" class="hover:text-blue-300 transition">Contact</a></li>
+                    <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-amber-400 transition border-b-2 border-amber-400">About</a></li>
+                    <li><a href="products.html" class="hover:text-amber-400 transition">Products</a></li>
+                    <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
                 </ul>
                 <button id="mobile-menu-btn" class="md:hidden text-2xl">
                     <i class="fas fa-bars"></i>
@@ -29,30 +33,32 @@
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
                 <ul class="space-y-2">
-                    <li><a href="index.html" class="block py-2 hover:text-blue-300 transition">Home</a></li>
-                    <li><a href="about.html" class="block py-2 hover:text-blue-300 transition">About</a></li>
-                    <li><a href="products.html" class="block py-2 hover:text-blue-300 transition">Products</a></li>
-                    <li><a href="contact.html" class="block py-2 hover:text-blue-300 transition">Contact</a></li>
+                    <li><a href="index.html" class="block py-2 hover:text-amber-400 transition">Home</a></li>
+                    <li><a href="about.html" class="block py-2 hover:text-amber-400 transition">About</a></li>
+                    <li><a href="products.html" class="block py-2 hover:text-amber-400 transition">Products</a></li>
+                    <li><a href="contact.html" class="block py-2 hover:text-amber-400 transition">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Page Header -->
-    <section class="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-4">About StartupIndia</h2>
-            <p class="text-xl text-blue-100">Excellence in Textile Spinning Mill Spare Parts</p>
+    <section class="royal-bg text-white py-16 relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 gold-text">About StarUpIndia</h2>
+            <p class="text-xl text-gray-300 accent-text">Excellence in Textile Spinning Mill Spare Parts</p>
         </div>
     </section>
 
     <!-- Company Overview -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
+    <section class="py-16 bg-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-5" style="background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-4xl mx-auto">
                 <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">Who We Are</h3>
                 <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                    StartupIndia is a leading supplier of high-quality spare parts for textile spinning mills across India. 
+                    StarUpIndia is a leading supplier of high-quality spare parts for textile spinning mills across India. 
                     With years of experience in the textile industry, we understand the critical importance of reliable 
                     machinery components for maintaining continuous production and operational efficiency.
                 </p>
@@ -66,6 +72,40 @@
                     We pride ourselves on our technical expertise, prompt delivery, and competitive pricing, making 
                     us the preferred choice for businesses seeking reliable spare parts solutions.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="py-16 royal-bg text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-8 gold-text">Meet Our Founder</h3>
+                <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
+                    <div class="flex-shrink-0">
+                        <img src="DSC_7847 fav IIa 7x7 kreis.jpg" 
+                             alt="Vilvapathy - Founder" 
+                             class="w-48 h-48 rounded-full object-cover border-4 gold-border royal-shadow">
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h4 class="text-2xl font-bold mb-2 accent-text">Vilvapathy</h4>
+                        <p class="text-lg mb-4 text-gray-300">Founder & CEO</p>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            With over a decade of experience in the textile industry, Vilvapathy founded StarUpIndia 
+                            with a vision to revolutionize spare parts supply for spinning mills. His deep understanding 
+                            of industrial machinery and commitment to excellence has positioned StarUpIndia as the 
+                            leading supplier in India.
+                        </p>
+                        <div class="flex justify-center md:justify-start space-x-4">
+                            <a href="mailto:vilvapathy@starupindia.com" class="royal-accent text-slate-900 px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+                                <i class="fas fa-envelope mr-2"></i>Email
+                            </a>
+                            <a href="tel:+919944956042" class="bg-transparent text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-400 transition border gold-border">
+                                <i class="fas fa-phone mr-2"></i>Call
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -154,6 +194,73 @@
         </div>
     </section>
 
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-5" style="background-image: url('https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">What Our Clients Say</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-blue-900"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Rajesh Kumar</h5>
+                            <p class="text-sm text-gray-600">Spinning Mill Owner</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"StarUpIndia has been our go-to supplier for spare parts. Their quality and timely delivery have significantly improved our operations."</p>
+                    <div class="flex text-yellow-400 mt-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-blue-900"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Priya Sharma</h5>
+                            <p class="text-sm text-gray-600">Operations Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Excellent customer service and genuine products. We recommend StarUpIndia to all our industry colleagues."</p>
+                    <div class="flex text-yellow-400 mt-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-blue-900"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold text-gray-800">Amit Patel</h5>
+                            <p class="text-sm text-gray-600">Technical Director</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Their technical expertise and product knowledge are unmatched. Reliable partner for our maintenance needs."</p>
+                    <div class="flex text-yellow-400 mt-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-16 bg-blue-900 text-white">
         <div class="container mx-auto px-4 text-center">
@@ -166,13 +273,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
+    <footer class="royal-bg text-white py-8">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-3 gap-8 mb-6">
                 <div>
                     <h4 class="text-xl font-bold mb-4 flex items-center">
                         <i class="fas fa-cogs mr-2"></i>
-                        StartupIndia
+                        StarUpIndia
                     </h4>
                     <p class="text-gray-300">Your trusted partner for textile spinning mill spare parts and industrial solutions.</p>
                 </div>
@@ -188,14 +295,14 @@
                 <div>
                     <h4 class="text-xl font-bold mb-4">Contact Info</h4>
                     <ul class="space-y-2 text-gray-300">
-                        <li><i class="fas fa-phone mr-2"></i> +91-XXXXXXXXXX</li>
-                        <li><i class="fas fa-envelope mr-2"></i> info@startupindia.com</li>
-                        <li><i class="fas fa-map-marker-alt mr-2"></i> India</li>
+                        <li><i class="fas fa-phone mr-2"></i> +91-9944956042</li>
+                        <li><i class="fas fa-envelope mr-2"></i> vilvapathy@starupindia.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> South Street No 4 Avaramapalayam Coimbatore. Tamil Nadu 641006</li>
                     </ul>
                 </div>
             </div>
             <div class="border-t border-gray-700 pt-6 text-center text-gray-400">
-                <p>&copy; 2024 StartupIndia. All rights reserved.</p>
+                <p>&copy; 2024 StarUpIndia. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -209,5 +316,6 @@
             mobileMenu.classList.toggle('hidden');
         });
     </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
